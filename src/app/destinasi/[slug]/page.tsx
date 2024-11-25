@@ -27,6 +27,8 @@ export default function DestinasiDetail() {
     );
   }
 
+  console.log(destination.image);
+
   const galleryImages = getGalleryImages(destination.slug);
 
   return (
