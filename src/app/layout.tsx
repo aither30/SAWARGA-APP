@@ -1,5 +1,13 @@
 import "./globals.css";
 
+
+if (process.env.NODE_ENV === "production") {
+  console.log = () => {};
+  console.error = () => {};
+  console.warn = () => {};
+}
+
+
 export default function RootLayout({
   children,
 }: {
