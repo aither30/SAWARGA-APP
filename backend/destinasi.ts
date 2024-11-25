@@ -1,20 +1,21 @@
 export type Destinasi = {
-    slug: string; // Tambahkan properti slug
-    name: string;
-    description: string;
-    location: string;
-    facilities: string;
-    open_time: string | null;
-    close_time: string | null;
-    price_weekday_child: number | null;
-    price_weekday_adult: number | null;
-    price_weekend: number | null;
-    contact_info: string;
-    transport_access: string;
-    additional_info: string;
-    image: string;
-  };
-  
+  slug: string; // Tambahkan properti slug
+  name: string;
+  description: string;
+  location: string;
+  facilities: string;
+  open_time: string | null;
+  close_time: string | null;
+  price_weekday_child: number | null;
+  price_weekday_adult: number | null;
+  price_weekend: number | null;
+  contact_info: string;
+  transport_access: string;
+  additional_info: string;
+  image: string;
+  imagePage1: string;
+  imagePage2: string;
+};
 
 export const destinasi: Destinasi[] = [
   {
@@ -38,6 +39,8 @@ export const destinasi: Destinasi[] = [
     additional_info:
       "Menyediakan layanan untuk lomba melukis, ulang tahun, dll.",
     image: "/img/kolam_renang.jpg",
+    imagePage1: "/../img/kolam_renang.jpg",
+    imagePage2: "/../../img/kolam_renang.jpg",
   },
   {
     name: "Curug Cilumping",
@@ -56,6 +59,8 @@ export const destinasi: Destinasi[] = [
     transport_access: "Belum ada transportasi umum, kecuali ojek.",
     additional_info: "Rencana paket wisata oleh Pokdarwis desa.",
     image: "/img/curugfix.jpg",
+    imagePage1: "/../img/curugfix.jpg",
+    imagePage2: "/../../img/curugfix.jpg",
   },
   {
     name: "Sirkuit Sicareuh",
@@ -74,6 +79,8 @@ export const destinasi: Destinasi[] = [
     transport_access: "Tidak ada transportasi umum ke Sirkuit Sicareuh.",
     additional_info: "Wakap Open Championship diadakan setiap tahun.",
     image: "/img/circuit.jpg",
+    imagePage1: "/../img/circuit.jpg",
+    imagePage2: "/../../img/circuit.jpg",
   },
   {
     name: "Leuwi Mangu",
@@ -92,6 +99,8 @@ export const destinasi: Destinasi[] = [
     transport_access: "Tidak ada akses transportasi umum, kecuali ojek.",
     additional_info: "Diri sendiri, tidak ada jaminan keamanan dan kesehatan.",
     image: "/img/leuwi_mangu.jpg",
+    imagePage1: "/../img/leuwi_mangu.jpg",
+    imagePage2: "/../../img/leuwi_mangu.jpg",
   },
   {
     name: "Gua Lanang",
@@ -110,5 +119,7 @@ export const destinasi: Destinasi[] = [
     transport_access: "Tidak ada akses transportasi umum, kecuali ojek.",
     additional_info: "Diri sendiri, tidak ada jaminan keamanan dan kesehatan.",
     image: "/img/gua.jpg",
+    imagePage1: "/../img/gua.jpg",
+    imagePage2: "/../../img/gua.jpg",
   },
 ];
