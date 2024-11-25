@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { destinasi } from "../../backend/destinasi";
+import { destinasi } from "../data/destinasi";
 import Navbar from "./components/Navbar";
 import Image from "next/image";
 import Link from "next/link";

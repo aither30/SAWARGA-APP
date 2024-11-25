@@ -3,7 +3,7 @@
 import { useParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { destinasi } from "../../../../backend/destinasi";
+import { destinasi } from "../../../data/destinasi";
 import { getGalleryImages } from "../../lib/getGalleryImages";
 import Navbar from "../../components/Navbar";
 

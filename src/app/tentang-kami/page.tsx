@@ -1,6 +1,6 @@
 "use client";
 
-import { team } from "../../../backend/team";
+import { team } from "../../data/team";
 import Navbar from "../components/Navbar";
 import Image from "next/image";
 
