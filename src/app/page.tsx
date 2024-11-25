@@ -55,7 +55,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-12 max-w-7xl w-full">
             {/* Header */}
             <div className="text-center md:text-left w-full md:w-1/2 space-y-4">
-              <h1 className="md:text-7xl sm:text-5xl font-extrabold mb-4 md:mt-0 sm:mt-10 tracking-tight text-yellow-400">
+              <h1 className="text-7xl font-extrabold mb-4 md:mt-0 sm:mt-10 tracking-tight text-yellow-400">
                 SAWARGA
               </h1>
               <p className="text-lg leading-relaxed">
