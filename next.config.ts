@@ -8,9 +8,6 @@ if (process.env.NODE_ENV === "production") {
 
 const nextConfig: NextConfig = {
   // Mengaktifkan pengaturan eksperimental untuk mengatur batas data halaman
-  experimental: {
-    largePageDataBytes: 1280 * 1000, // Membatasi ukuran data halaman (dalam byte)
-  },
 
   reactStrictMode: true,
   // Konfigurasi lain jika dibutuhkan

@@ -27,7 +27,7 @@ export default function DestinasiDetail() {
     );
   }
 
-  console.log(destination.imagePage2);
+  console.log(destination.image);
 
   const galleryImages = getGalleryImages(destination.slug);
 
@@ -42,7 +42,7 @@ export default function DestinasiDetail() {
         {/* Gambar Utama */}
         <div className="mb-6">
           <Image
-            src={destination.imagePage2}
+            src={destination.image}
             alt={destination.name}
             width={1000}
             height={500}
