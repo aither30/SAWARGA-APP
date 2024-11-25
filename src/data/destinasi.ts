@@ -108,6 +108,6 @@ export const destinasi: Destinasi[] = [
     contact_info: "Dapat bertanya pada warga sekitar.",
     transport_access: "Tidak ada akses transportasi umum, kecuali ojek.",
     additional_info: "Diri sendiri, tidak ada jaminan keamanan dan kesehatan.",
-    image: "/img/gua.jpg",
+    image: "/img/gua_lanang.jpg",
   },
 ];
